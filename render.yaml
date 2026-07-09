@@ -1,0 +1,12 @@
+services:
+  - name: aquashift
+    type: web
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/state
+    envVars:
+      - key: NODE_VERSION
+        value: 22.21.1
