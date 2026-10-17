@@ -5,6 +5,8 @@
 
 **The weather-aware workload intelligence layer for data centers.** AquaShift watches hyperlocal weather at every data center, computes a live Water Stress Index, and autonomously shifts batch compute away from water-stressed regions — then proves the savings in gallons, live.
 
+**Live demo:** [aquashift.onrender.com](https://aquashift.onrender.com) (free tier, so the first load can take about 30 s while it wakes up)
+
 ## Quickstart
 
 ```bash
