@@ -1,5 +1,8 @@
 # 💧 AquaShift
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+
 **The weather-aware workload intelligence layer for data centers.** AquaShift watches hyperlocal weather at every data center, computes a live Water Stress Index, and autonomously shifts batch compute away from water-stressed regions — then proves the savings in gallons, live.
 
 ## Quickstart
